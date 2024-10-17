@@ -1,0 +1,6 @@
+aluno = input('digita o nome do cliente:')
+bairro = input("Bairro do aluno:")
+#print("Nome do aluno:", aluno)
+print(aluno," ",bairro)
+media_aluno = input('digite a média:')
+print('nome do aluno:' , aluno , 'mora em:', bairro ,'tem a média:',  media_aluno)
