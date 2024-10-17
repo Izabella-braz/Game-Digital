@@ -1,0 +1,14 @@
+opcao="s"
+while opcao =='s':
+  aluno= input("nome do aluno:")
+  print(aluno)
+  nota1 = int(input('digite nota 1:'))
+  nota2 = int(input('digite nota 2:'))
+  nota3 = int(input('digite nota 3:'))
+  nota4 = int(input('digite nota 4:'))
+  media=((nota1+nota2+nota3+nota4)/4)
+  if media >=8:
+      print('Aprovado')
+  else:
+      print('reprovado')
+  opcao= input('deseja continuar s=sim ou N=nao ?:')
