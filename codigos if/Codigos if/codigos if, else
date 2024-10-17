@@ -1,0 +1,13 @@
+#conhecendo o comando if
+idade=15
+print('idade =',idade, 'anos')
+if idade == 17:
+    print('o menor tem 17 anos de idade')
+elif idade == 3:
+    print('idade = 3')
+elif idade == 15:
+    print("idade = 15")
+else:
+    print('lo siento amor, pero no es igual a 17')
+print('continuando o programa')
+print('fim de programa')
