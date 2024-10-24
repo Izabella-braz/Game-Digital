@@ -1,0 +1,25 @@
+#usando FUNÇÂO
+#È um sub-programa(conjunto de códigos) que pode ser acionada
+#varias vezes dentro do programa
+def exibir():
+    print("Aula - Python")
+    print(" São Paulo - 24 -10- 24")
+    print("Etec-Belém")
+exibir()
+print("Fim de programa")
+
+#soma com def 
+print("")
+print("")
+print("Parte 2:")
+print("")
+def somar(valor1,valor2):
+    soma=valor1+valor2
+    print(soma)
+preco1=int(input("digite preco 1:"))
+preco2=int(input("digite preco 2:"))
+somar(preco1, preco2)
+
+print("fim...")
+    
+    
