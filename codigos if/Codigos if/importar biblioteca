@@ -1,0 +1,11 @@
+import datetime
+from datetime import date
+now = datetime.datetime.now()
+print (now)
+print('-------------')
+data_atual=date.today()
+print(data_atual)
+print('---------')
+data_em_texto = data_atual.strftime('%d/%n0/%y')
+print(data_em_texto)
+    
