@@ -1,0 +1,15 @@
+def numero (x):
+    if x==1:
+        print("você escolheu bBesta")
+    elif x==2:
+        print("Você escolheu espada")
+    elif x==3:
+        print("Você escolheu K-47")
+        
+    else:
+        print('numero escolhido invalido')
+        print('voçê deve digitar 1, 2 ou 3')
+arma=int(input('escolha a arma 1, 2 ou 3: '))
+numero (arma)
+
+#https//jupyter.org/try-jupyter
