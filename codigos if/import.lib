@@ -1,0 +1,14 @@
+#importargrafico
+
+import matplotlib.pyplot as plt 
+plt.plot([1,2,3,4],[1,4,9,2],"purple")
+
+#importargraficodepizza
+
+import pandas as pd
+import matplotlib.pyplot as plt
+dados = {'categoria':['a','b','c','d'],'valor': [30,20,5,15]} 
+df=pd.DataFrame(dados)
+df.plot(kind='pie',y='valor',labels=df['categoria'],autopct='%1.1f%%', startangle=90)
+#exibindo
+plt.show()
