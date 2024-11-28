@@ -1,0 +1,13 @@
+
+nome=input('nome: ')  #entrada de string
+n=int(input("digite o numero de vezes: "))
+#print('nome:',nome)  #exibindo a variavel nome
+#strutura para repetir o nome
+x=1
+while x<=n:
+    print('bom dia', nome)
+    x+=1
+#finalizando
+print('fim')
+    
+
