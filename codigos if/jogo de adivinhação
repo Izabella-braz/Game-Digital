@@ -1,0 +1,15 @@
+from random import randint
+print('bem vindo')
+print('Digite um numero de 1 a 100')
+sorteado=randint(1,100)
+chute=0
+while chute !=sorteado:
+    chute= int(input('chute:'))
+    if chute == sorteado:
+        print("Voce venceu!")
+    else:
+        if chute>sorteado:
+            print('alto')
+        else:
+                print('baixo')
+print('Fim de Jogo')
